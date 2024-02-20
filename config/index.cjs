@@ -36,15 +36,15 @@ const USER_CONFIG = {
           type: '生日', name: '宝贝', year: '1998', date: '08-29',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2019', date: '06-07',
+          type: '节日', name: '相识纪念日', year: '2019', date: '06-02',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2019-06-07' },
+        { keyword: 'love_day', date: '2019-06-02' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2019-06-07' },
+        { keyword: 'marry_day', date: '2019-06-02' },
       ],
     },
   ],
