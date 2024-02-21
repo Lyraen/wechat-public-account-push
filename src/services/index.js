@@ -1147,6 +1147,7 @@ const sendMessageByServerChan = async (user, templateId, wxTemplateData) => {
 
   if (res.data && res.data.code === 0) {
     console.log(`${user.name}: 推送消息成功`)
+    console.log(`${modelData.desc}: 推送消息成功`)
     return {
       name: user.name,
       success: true,
