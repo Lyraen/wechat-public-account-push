@@ -52,6 +52,38 @@ const TEMPLATE_CONFIG = [
       失败用户: {{fail_post_ids.DATA}}
     `
   },
+  {
+    id: '0003',
+    title: '宝贝老婆, 贴贴～，早安安～',
+    desc: `
+      🗓️**{{date.DATA}}**
+      
+      下个休息日🎉：{{holidaytts.DATA}}
+      
+      ---
+      
+      今日{{city.DATA}}天气☁️：{{weather.DATA}}
+      
+      温度🌡️:{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      
+      风向💨: {{wind_direction.DATA}} {{wind_scale.DATA}}
+      
+      {{comprehensive_horoscope.DATA}}
+      
+      ---
+      
+      今天是我们在一起的第{{love_day.DATA}}天啦!，爱你❤️~
+      
+      {{birthday_message.DATA}}
+      
+      ---
+      💌:{{earthy_love_words.DATA}}
+
+      💓:{{moment_copyrighting.DATA}}
+      
+      🥰:{{poetry_content.DATA}}----出自{{poetry_title.DATA}}
+    `
+  },
 ]
 
 module.exports = TEMPLATE_CONFIG
