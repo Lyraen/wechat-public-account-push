@@ -62,17 +62,15 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今日{{city.DATA}}天气☁️：{{weather.DATA}}
-      
-      温度🌡️:{{max_temperature.DATA}} / {{min_temperature.DATA}}
-      
-      风向💨: {{wind_direction.DATA}} {{wind_scale.DATA}}
+      今日{{city.DATA}}天气☁️：{{weather.DATA}}  ,气温🌡️:{{max_temperature.DATA}} / {{min_temperature.DATA}}
+
+      天气小tips📝: {{notice.DATA}}
       
       {{comprehensive_horoscope.DATA}}
       
       ---
       
-      今天是我们在一起的第{{love_day.DATA}}天啦~! 爱你❤️~
+      今天是我们在一起的第{{love_day.DATA}}天啦~, 爱你❤️~
       
       {{birthday_message.DATA}}
       
@@ -81,7 +79,7 @@ const TEMPLATE_CONFIG = [
 
       💓:{{moment_copyrighting.DATA}}
       
-      🥰:{{poetry_content.DATA}}----出自{{poetry_title.DATA}}
+      🥰:{{poetry_content.DATA}}  ——出自:<<{{poetry_title.DATA}}>>
     `
   },
 ]
