@@ -62,7 +62,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今日{{city.DATA}}天气☁️：{{weather.DATA}}  ,气温🌡️:{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      今日{{city.DATA}}天气☁️：{{weather.DATA}} ,   气温🌡️:{{max_temperature.DATA}} / {{min_temperature.DATA}}
 
       天气小tips📝: {{notice.DATA}}
       
